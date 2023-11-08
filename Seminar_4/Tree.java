@@ -116,7 +116,7 @@ public class Tree {
       inorder(node.left);
       char c = '❗';
       if (node.color == false)
-        c = '│';
+      c = '!';
       System.out.print(node.data + ""+c+" ");
       inorder(node.right);
     }
